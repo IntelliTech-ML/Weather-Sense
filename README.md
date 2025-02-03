@@ -19,8 +19,7 @@ Want to know if it's going to rain or shine? This Weather Condition Classifier u
 1.  *Grab the Code:* Clone this repository to your computer:
 
     bash
-    git clone [https://github.com/ml-beginner-learner/weather-condition-classifier](https://github.com/ml-beginner-learner/weather-condition-classifier)  # Replace with your repository URL
-    
+    git clone [https://github.com/ml-beginner-learner/weather-condition-classifier](https://github.com/ml-beginner-learner/weather-condition-classifier)  
 
 2.  *Get the Tools:*
 
@@ -28,9 +27,13 @@ Want to know if it's going to rain or shine? This Weather Condition Classifier u
 
         bash
         python -m venv .venv       # Create a virtual environment
+        
         .venv\Scripts\activate    # Activate on Windows
+        
         source .venv/bin/activate # Activate on Linux/macOS
+        
         pip install -r requirements.txt # Install Python libraries
+        
         
 
     *   *C Compiler:* You'll need a C compiler (like GCC or MinGW) to build the Windows application.
